@@ -1,0 +1,18 @@
+{
+  "description": "Template JSON per ogni messaggio/pacchetto rilevato nella cattura. Usa i campi elencati per riempire o arricchire i dettagli.",
+  "fields": {
+    "packet_number": "Numero del pacchetto (string o int)",
+    "time": "Timestamp relativo (string)",
+    "source": "Indirizzo sorgente (IP o MAC)",
+    "destination": "Indirizzo destinazione (IP o MAC)",
+    "protocol": "Protocollo rilevato (es. UDP, TCP, MDNS, ARP)",
+    "frame_length": "Lunghezza del frame riportata nel CSV (string)",
+    "raw_hex": "Dati raw in esadecimale se presenti (string)",
+    "info": "Testo informativo originale (string)",
+    "src_port": "Porta sorgente (int, se estraibile)",
+    "dst_port": "Porta destinazione (int, se estraibile)",
+    "payload_len": "Lunghezza payload (se presente)",
+    "message_type": "Classificazione (es. mDNS query, DNS response, HTTP, ARP, generic)",
+    "protocol_details": "Oggetto con dettagli specifici al protocollo (es. query type, tcp_flags, dns name, dhcp option...)"
+  }
+}
