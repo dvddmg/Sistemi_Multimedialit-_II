@@ -1,3 +1,6 @@
 **/.DS_Store
 **/venv
 **/.vscode
+**/*.pages
+/studio
+/render_simulazione
